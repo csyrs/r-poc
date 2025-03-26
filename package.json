@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "ds": "next --turbopack --experimental-https -p 1080",
+    "pb": "next build -d"
+  },
+  "dependencies": {
+    "next": "^15.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hotkeys-hook": "^4.6.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "rr-api": "caseyross/rr-api"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.15",
+    "@types/react": "^19.0.12",
+    "coffee-loader": "^5.0.0",
+    "coffeescript": "^2.7.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.15",
+    "typescript": "^5.8.2"
+  }
+}
